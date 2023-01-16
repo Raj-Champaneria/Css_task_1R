@@ -1,0 +1,111 @@
+body {
+  background-color: aliceblue;
+  
+}
+:root {
+  --icon-bg: #ffffff;
+  --font-text:#4D5E80;
+  --desc-text:#ADB8CC;
+}
+.first-task{
+  margin: 50px 200px;
+}
+.second-task ,.third-task{
+    margin:50px 160px;
+}
+
+.bankimg {
+  height: 25px;
+  width: 25px;
+  margin: 22px 23px;
+}
+
+.icon {
+  background-color: var(--icon-bg);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.heading{
+    color:var(--font-text);
+    font-style:normal;
+    font-weight:bold;
+    font-size:24px;
+    margin-bottom:0px;
+    margin-top:5px;
+    font-family: sans-serif;
+}
+.desp{
+    color:var(--desc-text);
+    font-size:12px;
+    font-weight:700;
+    margin:9px;
+}
+
+/* .desp2{
+    display: flex;
+    flex-direction: column;
+       
+}
+.first-task{
+    display: flex;
+    gap:20px;
+} */
+
+.second-task{
+    height:255px;
+    width:255px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.main-div{
+    padding:50px;
+}
+
+.st-name,.st-heading{
+    color: #ffffff;
+    font-weight:400;
+    font-size: 26px;
+}
+
+.appleimg{
+    height:20px;
+    width:20px;
+}
+
+/* .third-task{
+    display: flex;
+    gap:40px;
+}
+
+.fourth-task{
+    margin:50px 0px;
+    display: flex;
+    gap:80px;
+} */
+
+.gpay,.vpn,.service-rental{
+    width:175px;
+    height:175px;
+    background-color: #ffffff;
+    margin:20px;
+    border-radius: 20PX;
+}
+.img-div{
+    width:80px;
+    height:80px;
+    background-color: #ffffff;
+    margin:20px 40px;
+    border-radius: 50%;
+    border:2px solid #F5F6F7
+}
+.gpay-img{
+    margin: 30px;
+}
+
+.gpay-font{
+    color:var(--font-text);
+    width:200px;
+}
