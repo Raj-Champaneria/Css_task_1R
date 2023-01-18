@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  margin: 50px;
+}
+.icon-div {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(243, 247, 247);
+  border-radius: 50%;
+}
+
+img {
+  padding: 18px;
+}
+nav {
+  display: inline-block;
+
+}
+h1{
+    color: #4D5E80;
+}
+
+h1,
+ul,
+li,
+.container,
+.icon-div {
+  display: inline-block;
+}
+li {
+  padding: 2px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #7D8FB3;
+}
+
+.user-icon{
+    margin-left:700px;
+}
+
+.clyton{
+    display: inline-block;
+    color: #7D8FB3;
+}
+.bell{
+    position:absolute;
+    top:27px;
+    right:210px;
+}
