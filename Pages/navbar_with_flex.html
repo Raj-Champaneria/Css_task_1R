@@ -79,6 +79,21 @@
             color: #6B7A99;
             font-weight: 700;
         }
+        
+        .bell{
+            position:relative;
+        }
+      
+       .bell::after{
+        content: "";
+        height:12px;
+        width:12px;
+        background-color: red;
+        position: absolute;
+        top:0%;
+        right:-5%;
+        border-radius: 50%;
+       }
     </style>
 </head>
 
@@ -102,7 +117,7 @@
         <div class="right-div">
             <img class="tripple" src="../Assests/images/Icon9.png">
             <h4>clayton santos</h4>
-            <div class="img-div">
+            <div class="img-div bell">
                 <img class="tripple" src="../Assests/images/Icon10.png">
             </div>
             <div class="img-div">
