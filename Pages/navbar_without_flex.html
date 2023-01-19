@@ -54,7 +54,7 @@
 
         .right-div {
             float: right;
-            margin-right:20px;
+            margin-right: 20px;
         }
 
 
@@ -69,17 +69,30 @@
             transform: translateY(-99%);
             color: #6B7A99;
         }
-        .bell,.cross
-        {
-            margin-left:8px;
+
+        .bell,
+        .cross {
+            margin-left: 8px;
             border-radius: 50%;
             background-color: #ffffff;
             display: inline-block;
-
+            position: relative;
         }
-       .bellicon{
-        padding:10px 15px;
-       }
+
+        .bellicon {
+            padding: 10px 15px;
+        }
+
+        .bell::after {
+            content: "";
+            height: 12px;
+            width: 12px;
+            background-color: red;
+            position: absolute;
+            top: 0%;
+            right: -5%;
+            border-radius: 50%;
+        }
     </style>
 </head>
 
