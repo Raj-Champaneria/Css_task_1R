@@ -15,6 +15,7 @@ body {
   margin: 50px;
   background-color: #1a2233;
   border-radius: 10px;
+  margin:40px 300px;
 }
 
 .card-header {
@@ -89,9 +90,8 @@ h4 {
 }
 
 .chart-container {
-  position: absolute;
-  top: 10%;
-  right: 10%;
+  margin-left:50px;
+  width:275px;
   border-radius: 20px;
   background-color: var(--text-color);
 }
