@@ -11,7 +11,7 @@
 
 <body>
     <div class="wrapper d-flex flex-column">
-        <header class=" w-100">
+        <header class="header w-100">
             <nav class="nav d-flex jsb">
                 <div class="left-menu d-flex aic fw-700">
                     <button class="circle-white box-shadow"><img src="assests/images/Icon1.png"></button>
@@ -33,92 +33,238 @@
                 </div>
             </nav>
         </header>
-        <section class="main-content">
-            <div class="cash-details d-flex jsb">
-                <div class="cash-detail-box  d-flex aic border">
-                    <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                    <div class="desp d-flex flex-column ms-25">
-                        <span class="display-3">$ 12,566</span>
-                        <span class="display-4">Bank Account</span>
+        <section class="main-content d-flex">
+            <div class="main-container">
+                <div class="cash-details d-flex jsb">
+                    <div class="cash-detail-box  d-flex aic">
+                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
+                        <div class="desp d-flex flex-column ms-25">
+                            <span class="display-3">$ 12,566</span>
+                            <span class="display-4">Bank Account</span>
+                        </div>
+                    </div>
+                    <div class="cash-detail-box  d-flex aic">
+                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
+                        <div class="desp d-flex flex-column ms-25">
+                            <span class="display-3">$ 43,566</span>
+                            <span class="display-4">Investment Account</span>
+                        </div>
+                    </div>
+                    <div class="cash-detail-box  d-flex aic">
+                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
+                        <div class="desp d-flex flex-column ms-25">
+                            <span class="display-3">$ 567</span>
+                            <span class="display-4">Cashback</span>
+                        </div>
+                    </div>
+                    <div class="cash-detail-box  d-flex aic">
+                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
+                        <div class="desp d-flex flex-column ms-25">
+                            <span class="display-3">$ 8545</span>
+                            <span class="display-4">Cashback</span>
+                        </div>
                     </div>
                 </div>
-                <div class="cash-detail-box  d-flex aic">
-                    <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                    <div class="desp d-flex flex-column ms-25">
-                        <span class="display-3">$ 43,566</span>
-                        <span class="display-4">Investment Account</span>
-                    </div>
-                </div>
-                <div class="cash-detail-box  d-flex aic">
-                    <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                    <div class="desp d-flex flex-column ms-25">
-                        <span class="display-3">$ 567</span>
-                        <span class="display-4">Cashback</span>
-                    </div>
-                </div>
-                <div class="cash-detail-box  d-flex aic">
-                    <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                    <div class="desp d-flex flex-column ms-25">
-                        <span class="display-3">$ 8545</span>
-                        <span class="display-4">Cashback</span>
-                    </div>
-                </div>
-            </div>
+                <div class="first-row d-flex ">
+                    <section class="card">
+                        <div class="card-header d-flex jsb aic">
+                            <h4>Your Card</h4>
+                            <button class="arrow-button circle-white"><img src="assests/images/arrow.png"></button>
+                        </div>
+                        <div class="card-body ">
+                            <div class="d-flex aic">
+                                <button class="circle-white box-shadow"><img
+                                        src="./assests/images/Icon (1).png"></button>
+                                <span class="card-desp">$ 12,566</span>
+                            </div>
+                            <div class="card-transaction-section d-flex ">
+                                <div class="card-amount-section d-flex flex-column">
+                                    <span class="card-amount">$ 6,433</span>
+                                    <span class="card-amount-desp">Account Transactions</span>
+                                </div>
+                                <div class="card-amount-section d-flex flex-column">
+                                    <span class="card-amount">$ 211</span>
+                                    <span class="card-amount-desp">Account Cashback</span>
+                                </div>
+                            </div>
+                            <div class="card-transaction-section d-flex ">
+                                <div class="card-amount-section d-flex flex-column">
+                                    <span class="card-amount">$ 6,433</span>
+                                    <span class="card-amount-desp">Account Transactions</span>
+                                </div>
+                                <div class="card-amount-section d-flex flex-column">
+                                    <span class="card-amount">$ 211</span>
+                                    <span class="card-amount-desp">Account Cashback</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex">
+                            <div class="slider active"></div>
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                        </div>
+                    </section>
+                    <section class="transaction-card">
+                        <div class="t-head d-flex jsb aic">
+                            <h4 class="transaction-heading ">Transactions</h4>
+                            <div class="today">
+                                <span>Today</span>
+                                <span class="ms-35">Yesterday</span>
+                            </div>
+                        </div>
+                        <div class="transaction-body">
+                            <div class="transaction-content d-flex jsb aic">
+                                <div class="transd d-flex">
+                                    <div class="t-icon d-flex jc aic">
+                                        <img src="./assests/images/Icon5.png" alt="">
+                                    </div>
+                                    <div class="transaction-content-inner ms-35">
+                                        <h4>Google play buyers</h4>
+                                        <span>25 oct 2045</span>
+                                    </div>
+                                </div>
+                                <div class="trans-price">
+                                    <span>-$21</span>
+                                </div>
+                            </div>
+                            <div class="transaction-content d-flex jsb aic">
+                                <div class="transd d-flex">
+                                    <div class="t-icon d-flex jc aic">
+                                        <img src="./assests/images/Icon2.png" alt="">
+                                    </div>
+                                    <div class="transaction-content-inner ms-35">
+                                        <h4>Buy Apple Stocks</h4>
+                                        <span>25 oct 2045</span>
+                                    </div>
+                                </div>
+                                <div class="trans-price">
+                                    <span>-$2,455</span>
+                                </div>
+                            </div>
+                            <div class="transaction-content d-flex jsb aic">
+                                <div class="transd d-flex">
+                                    <div class="t-icon d-flex jc aic">
+                                        <img src="./assests/images/Icon15.png" alt="">
+                                    </div>
+                                    <div class="transaction-content-inner ms-35">
+                                        <h4>Vpn Buy Services</h4>
+                                        <span>25 oct 2045</span>
+                                    </div>
+                                </div>
+                                <div class="trans-price">
+                                    <span>-$124</span>
+                                </div>
+                            </div>
+                            <div class="transaction-content d-flex jsb aic">
+                                <div class="transd d-flex aic jsb">
+                                    <div class="t-icon d-flex jc aic">
+                                        <img src="./assests/images/Icon16.png" alt="">
+                                    </div>
+                                    <div class="transaction-content-inner ms-35">
+                                        <h4>Vpn Buy Services</h4>
+                                        <span>25 oct 2045</span>
+                                    </div>
+                                </div>
+                                <div class="trans-price">
+                                    <span>-$21</span>
+                                </div>
+                            </div>
+                            <div class="transaction-content d-flex jsb aic">
+                                <div class="transd d-flex">
+                                    <div class="t-icon d-flex jc aic">
+                                        <img src="./assests/images/Icon17.png" alt="">
+                                    </div>
+                                    <div class="transaction-content-inner ms-35">
+                                        <h4>Service Rental </h4>
+                                        <span>25 oct 2045</span>
+                                    </div>
+                                </div>
+                                <div class="trans-price">
+                                    <span>-$21</span>
+                                </div>
+                            </div>
 
-            <div class="first-row d-flex">
-                <section class="card">
-                    <header class="card-header d-flex jsb aic">
-                        <h4 class="">Your Card</h4>
-                        <button class="circle-white arrow"><img src="assests/images/arrow.png" ></button>
-                    </header> 
-                    <div class="cash-detail-box  d-flex aic">
-                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                        <div class="desp d-flex flex-column ms-25">
-                            <span class="display-3">$ 8545</span>
-                            <span class="display-4">Cashback</span>
                         </div>
-                    </div>    
-                    <div class="cash-detail-box  d-flex aic">
-                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                        <div class="desp d-flex flex-column ms-25">
-                            <span class="display-3">$ 8545</span>
-                            <span class="display-4">Cashback</span>
+                    </section>
+                </div>
+                <div class="second-row d-flex">
+                    <section class="purple-section">
+                        <div class="purple">
+                            <div class="purple-transaction-section d-flex jsb">
+                                <span>Transactions</span>
+                                <span>$ 2554</span>
+                            </div>
                         </div>
-                    </div>                        
-                </section>
-                <section class="card">
-                    <header class="card-header d-flex jsb aic">
-                        <h4 class="">Your Card</h4>
-                        <button class="circle-white arrow"><img src="assests/images/arrow.png" ></button>
-                    </header> 
-                    <div class="details-box d-flex jsb">
-                    <div class="cash-detail-box  d-flex aic">
-                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                        <div class="desp d-flex flex-column ms-25">
-                            <span class="display-3">$ 8545</span>
-                            <span class="display-4">Cashback</span>
+                        <div class="purple-box ms-35 d-flex">
+                            <div class="gpay d-flex flex-column aic ">
+                                <button><img src="assests/images/Icon5.png"></button>
+                                <span>Google Play </span>
+                            </div>
+                            <div class="gpay d-flex flex-column aic ">
+                                <button><img src="assests/images/Icon16.png"></button>
+                                <span>buy vpn </span>
+                            </div>
+                            <div class="gpay d-flex flex-column aic ">
+                                <button><img src="assests/images/Icon17.png"></button>
+                                <span>Service Rental</span>
+                            </div>
                         </div>
-                    </div>     
-                    <div class="cash-detail-box  d-flex aic">
-                        <button class="circle-white box-shadow"><img src="./assests/images/Icon (1).png"></button>
-                        <div class="desp d-flex flex-column ms-25">
-                            <span class="display-3">$ 8545</span>
-                            <span class="display-4">Cashback</span>
-                        </div>
-                    </div>    
-                </div>                   
-                </section>
-                <!-- <section class="card">
-                    <header class="card-header d-flex jsb aic">
-                        <h4 class="">Your Card</h4>
-                        <button class="circle-white arrow"><img src="assests/images/arrow.png" ></button>
-                    </header>                        
-                </section> -->
+                    </section>
+                    <section class="cashback-flow">
+                        <section class="card">
+                            <div class="card-header d-flex jsb aic">
+                                <h4>Your Card</h4>
+                                <button class="arrow-button circle-white"><img src="assests/images/arrow.png"></button>
+                            </div>
+                            <div class="card-body ">
+                                <div class="d-flex aic">
+                                    <button class="circle-white box-shadow"><img
+                                            src="./assests/images/Icon (1).png"></button>
+                                    <span class="card-desp">$ 12,566</span>
+                                </div>
+                                <div class="card-transaction-section d-flex ">
+                                    <div class="card-amount-section d-flex flex-column">
+                                        <span class="card-amount">$ 6,433</span>
+                                        <span class="card-amount-desp">Account Transactions</span>
+                                    </div>
+                                    <div class="card-amount-section d-flex flex-column">
+                                        <span class="card-amount">$ 211</span>
+                                        <span class="card-amount-desp">Account Cashback</span>
+                                    </div>
+                                </div>
+                                <div class="card-transaction-section d-flex ">
+                                    <div class="card-amount-section d-flex flex-column">
+                                        <span class="card-amount">$ 6,433</span>
+                                        <span class="card-amount-desp">Account Transactions</span>
+                                    </div>
+                                    <div class="card-amount-section d-flex flex-column">
+                                        <span class="card-amount">$ 211</span>
+                                        <span class="card-amount-desp">Account Cashback</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer d-flex">
+                                <div class="slider active"></div>
+                                <div class="slider"></div>
+                                <div class="slider"></div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
             </div>
+            <aside>
+                <div class="box d-flex">
+                    <div class="box-desp">
+                        <h4 >Total sales</h4>
+                        <h4 class="box-price">$281.90</h4>
+                    </div>
+                    <div class="img">
+                        <img src="assests/images/Chart (3).png">
+                    </div>
+                </div>
+            </aside>
         </section>
-        <aside>
-
-        </aside>
+        
     </div>
 </body>
 
