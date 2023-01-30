@@ -3,73 +3,97 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: #f7f8fa;
+  overflow: hidden;
 }
+
 :root {
-  --gray-70: #7d8fb3;
-  --gray-60: #6b7a99;
+  --gray-30: #26334D;
+  --gray-40: #334466;
   --gray-50: #4d5e80;
+  --gray-60: #6b7a99;
+  --gray-70: #7d8fb3;
   --gray-80: #adb8cc;
+  --gray-98: #F7F8FA;
+  --white: #FFFFFF;
 }
+
 /* Helper classes */
 .box-shadow {
   box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
 }
+
 .h-100 {
   height: 100%;
 }
+
 .w-100 {
   width: 100%;
 }
+
 .d-flex {
   display: flex;
 }
+
 .flex-column {
   flex-direction: column;
 }
+
 .jsb {
   justify-content: space-between;
 }
+
 .jc {
   justify-content: center;
 }
+
 .aic {
   align-items: center;
 }
+
 .border {
   border: 1px solid black;
 }
+
 .fw-700 {
   font-weight: 700;
 }
+
 .fw-800 {
   font-weight: 800;
 }
+
 a {
   text-decoration: none;
   color: var(--gray-70);
 }
+
 li {
   list-style: none;
 }
+
 .display-3 {
   font-size: 24px;
   color: var(--gray-50);
   font-weight: 700;
   font-family: sans-serif;
 }
+
 .display-4 {
   margin-top: 5px;
   font-size: 12px;
   font-weight: 700;
   color: var(--gray-80);
 }
+
 /* ===========margins============= */
 .ms-35 {
   margin-left: 35px;
@@ -88,18 +112,33 @@ li {
   cursor: pointer;
 }
 
+
+.text-white {
+  color: white;
+}
+
 /* ----------------------- */
 
-header {
+header{
   padding: 20px 25px;
   border-bottom: 2px solid #edeff2;
-}
+  }
+
+
+
+.wrapper{
+  max-width:1700px;
+  margin:0 auto;
+  height: 100%; 
+} 
+
 .company-name {
   font-size: 18px;
   margin-left: 35px;
   color: var(--gray-50);
   font-weight: 700;
 }
+
 .container-item {
   padding-left: 30px;
   padding: 20px 10px;
@@ -107,22 +146,27 @@ header {
   font-size: 13px;
   font-weight: 700;
 }
+
 .container-item:hover {
   background-color: rgb(220, 216, 216);
   cursor: pointer;
 }
+
 .username {
   margin-left: 20px;
   margin-right: 35px;
   color: var(--gray-60);
   font-size: 13px;
 }
+
 .cross-icon {
   margin-left: 10px;
 }
+
 .bell-icon {
   position: relative;
 }
+
 .bell-icon::after {
   content: "";
   height: 10px;
@@ -133,29 +177,266 @@ header {
   right: 0px;
   border-radius: 50%;
 }
-.main-content {
+
+.main-content{
+  overflow: auto;
   padding: 10px 30px;
-  border: 1px solid black;
-}
-
-.first-row{
-    margin-top:30px;
-}
-
-.card{
-    background-color:#1A2233;
-    border-radius: 10px  ;
 }
 
 
-.arrow{
-    background-color: #26334D;
+.first-row,
+.second-row {
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-right:100px;
+}
+.second-row{
+  margin-bottom: 50px;
+  /* border:1px solid black; */
+}
+.card {
+  background-color: #1A2233;
+  border-radius: 10px;
+  padding: 40px;
+  flex: 1
+}
+.cashback-flow{
+  /* margin-left:30px; */
+  flex: 1;
+}
+.cash-detail-box {
+  flex: 1;
+}
+
+.arrow {
+  background-color: #26334D;
+}
+
+.arrow-button {
+  background-color: var(--gray-30);
+}
+
+.card-header h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+}
+
+.card-body {
+  margin-top: 50px;
+}
+
+.card-desp {
+  margin-left: 36px;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.card-transaction-section {
+  margin-top: 50px;
+
+}
+
+.card-amount {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card-amount-desp {
+  color: var(--gray-60);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card-amount-section {
+  margin-right: 80px;
+}
+
+.slider {
+  margin-top: 50px;
+  height: 2px;
+  width: 64px;
+  background-color: var(--gray-40);
+  margin-right: 20px;
+}
+
+.active {
+  background-color: var(--white);
+}
+
+.transaction-card {
+  background-color: white;
+  padding: 40px;
+  margin-left: 30px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.transaction-heading {
+  font-size: 24px;
+  color: var(--gray-50);
+  font-weight: 700;
+}
+
+.today span {
+  color: var(--gray-60);
+}
+
+.transaction-body {
+  margin-top: 35px;
+}
+
+.t-icon {
+  height: 60px;
+  width: 60px;
+  background-color: var(--gray-98);
+  border-radius: 50%;
+}
+
+.transaction-content-inner span {
+  display: block;
+  margin-top: 10px;
+}
+.transaction-content{
+  margin-bottom:20px;
+}
+
+.transaction-content-inner h4 {
+  color: var(--gray-50);
+  font-size: 14px;
+}
+
+.transaction-content-inner span {
+  color: var(--gray-80);
+  font-size: 12px;
+}
+
+.trans-price span {
+  color: var(--gray-50);
+  font-size: 18px;
 }
 
 
-h4{
-    font-size: 24px;
-    font-weight: 700;
-    font-family: sans-serif;
+.purple {
+  background-color: #8833FF;
+  border-radius: 10px;
+  height: 250px;
+  padding: 20px;
+}
+
+.purple-transaction-section span {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.purple-box {
+  margin-top: 30px;
+}
+
+.gpay button {
+  height: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 50%;
+}
+
+.gpay {
+  padding: 30px 40px;
+  flex:1;  
+}
+
+.gpay span {
+  margin-top: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gray-50);
+}
+
+.purple-section{
+  flex:1;
+}
+.cashback-flow{
+  margin-left:30px;
+  flex: 1;
+}
+.main-container{
+  overflow-x: hidden;
+  flex: 2;
+}
+.box{
+  height:200px;
+  width:200px;
+  /* background-color: #26334D; */
+  margin-right:0;
+}
+.img{
+  margin-left:20px;
+}
+.box-price{
+  font-size:24px;
+}
+aside{
+  border-left:2px solid rgb(230, 226, 226);
+  height:100%;
+}
+
+@media screen and (max-width:500px) {
+  .ul-container,.right-menu{
+    display: none;
+  }
+  .main-container{
+    overflow-x: hidden;
+  }
+  .today{
+    display: none;
+  }
+  .transaction-heading{
+    text-align: center;
+  }
+  .t-head{
+    display: block;
+    text-align: center;
+  }
+  .card{
+    padding:15px;
+  }
+  .cash-detail-box{
+    margin-top:10px;
+  }
+}
+@media screen and (max-width:900px){
+  header{
+    background-color: #e0e3eb;
     color:white;
+  }
+  .first-row,.second-row{
+    flex-direction: column;
+  }
+  .main-content{
+    padding:10px 20px;
+  }
+  .cash-details{
+    flex-wrap: wrap;
+  }
+  .purple-section{
+    margin-bottom: 20PX;
+  }
 }
+
+@media screen and (max-width:1200px){
+  .ul-container,aside {
+    display: none;
+  }
+  .first-row,.second-row{
+    margin-right: 50px;
+  }
+  .transaction-card{
+    margin-left:0;
+  }
+  
+}
+
